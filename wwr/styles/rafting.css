@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Mono&display=swap');
+:root
+{
+  --primary-color: #1c3144;
+  --secondary-color: #ba3b46;
+  --accent1-color: #bcd2ee;
+  --accent2-color: #5b8266;
+
+  --heading-font: Merriweather;
+  --paragraph-font:'Roboto Mono', serif;
+  --nav-background-color:  #eeeeee;
+  --nav-link-color:  #1c2144;
+  --nav-hover-link-color:  #bcd2ee;
+  --nav-hover-background-color: #5b8266;
+}
+.hero img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+h1{
+    position: absolute;
+    top: 180px;
+    left: 350px;
+    color: #bcd2ee;
+}
+article{
+    position: absolute;
+    top: 860px;
+    left: 10px;
+    font-family: var(--paragraph-font);
+    background-color: var(--accent2-color);
+}
+article img{
+    float: right;
+    width: 200px;
+    height: auto;
+}
