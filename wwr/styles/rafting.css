@@ -4,7 +4,7 @@
   --primary-color: #1c3144;
   --secondary-color: #ba3b46;
   --accent1-color: #bcd2ee;
-  --accent2-color: #5b8266;
+  --accent2-color: #5b8266aa;
 
   --heading-font: Merriweather;
   --paragraph-font:'Roboto Mono', serif;
@@ -26,12 +26,15 @@ h1{
 }
 article{
     position: absolute;
-    top: 860px;
+    width: 1244px;
+    height: auto;
+    top: 773px;
     left: 10px;
     font-family: var(--paragraph-font);
     background-color: var(--accent2-color);
 }
 article img{
+    padding: 50px;
     float: right;
     width: 200px;
     height: auto;
