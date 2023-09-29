@@ -30,7 +30,8 @@ article{
     display: block;
     height: auto;
     top: 773px;
-    left: 10px;
+    margin: 0;
+    padding: 0;
     font-family: var(--paragraph-font);
     background-color: var(--accent2-color);
 }
