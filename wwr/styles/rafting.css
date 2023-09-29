@@ -39,3 +39,12 @@ article img{
     width: 200px;
     height: auto;
 }
+footer div{
+    height: 130px;
+    background-color: var(--accent1-color);
+}
+footer div img{
+    position: relative;
+    top: 20px;
+    height: 100px;
+}
