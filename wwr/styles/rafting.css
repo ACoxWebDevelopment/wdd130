@@ -26,7 +26,8 @@ h1{
 }
 article{
     position: absolute;
-    width: 1244px;
+    width: 100%;
+    display: block;
     height: auto;
     top: 773px;
     left: 10px;
