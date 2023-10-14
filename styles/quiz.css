@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 3px solid rgba(0, 0, 0, .5);
+    border-radius: 1rem;
+    background-color: #fabb34;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    padding: 1.5rem;
+}
+label{
+    padding: .5rem;
+}
+div{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+button{
+    background-color: rgb(105, 66, 11);
+    margin: 2px;
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(201, 134, 8);
+}

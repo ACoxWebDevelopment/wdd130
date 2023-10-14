@@ -81,4 +81,5 @@ button:hover{
 }
 .column2{
    grid-template-columns: 1fr 2fr; 
+   height: 50px;
 }
