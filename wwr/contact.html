@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Contact Us Page</title>
+    <meta name="description" content="Provides reader with a way to contact Al's white water adventures">
+    <meta name="author" content="Allan Cox">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+       <img src="images/ww1.jpg" alt="company logo">
+       <h1 class="Filler">Header Filler</h1>
+       <nav>
+          <ul class="navigation">
+              <li>
+                  <a href="">home</a>
+                  <a href="">about</a>
+                  <a href="">trips</a>
+                  <a href="">contact</a>
+              </li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <h1 class="name">
+            Al's White Water Rafting Adventures
+        </h1>
+        <div class="info">
+            <h3>Company information:</h3>
+            <p> adress: 5171 Rising Sun Ave </p>
+            <p>phone number: (123)456-7890</p>
+            <p>email: Al@alswhitewateradventures.com</p>
+        </div>
+            <h4>Meet our staff</h4>
+        <div class="happy">
+            <figure>
+                <img src="images/happyemployee1.jpg" alt="happy employee 1">
+                <figcaption>Al, Owner</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happyemployee2.jpg" alt="happyemployee2">
+                <figcaption>Dave, Safety Coordinator</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happyemployee3.jpg" alt="happyemployee3">
+                <figcaption>Rick, Logistics</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happyemployee4.jpg" alt="happyemployee4">
+                <figcaption>Tim, Web Development</figcaption>
+            </figure>
+        </div>
+        <form action="about.html">
+            <fieldset>
+                <label for="name">name</label>
+                <input type="text" name="name" id="name">
+            </fieldset>
+            <fieldset>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+            <fieldset>
+                <label for="inquiry">Reason for contact</label>
+                <select name="inquiry" id="inquiry">
+                    <option value="" selected disabled>Choose one ...</option>
+                    <option value="General inquiry">General inquiry</option>
+                    <option value="Reservation question">Reservation question</option>
+                    <option value="Website Suggestion">Website Suggestion</option>
+                </select>
+            </fieldset>
+            <fieldset>  
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" name="subscribe" id="subscribe">
+            </fieldset>
+                <button type="submit">Submit</button>
+        </form>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22211.268970984638!2d-111.53670724999999!3d45.90313955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1697320104164!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>
+                © 2023 Al's Whitewater Adventures | Allan Cox
+            </p>
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook link"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.webp" alt="instagram"></a>
+            <a href="https://www.pinterest.com"><img src="images/pinterest.webp" alt="pintrest"></a>    
+        </div>
+       
+     
+    </footer>
+</body>
+</html>

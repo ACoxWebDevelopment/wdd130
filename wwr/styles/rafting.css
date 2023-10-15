@@ -120,3 +120,43 @@ figcaption{
 grid-row: 2;
 text-align: center;
 }
+.info{
+    padding: 10px;
+    background-color: rgba(236, 233, 233, 0.786);
+    width: 350px;
+    border: 1.5px solid black;
+    border-radius: .5rem;
+}
+.happy{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content:space-around;
+    background-color: #5b8266;
+    padding: 1.0rem;
+    margin: 1rem;
+}
+form{
+    margin: 1rem;
+    background-color: antiquewhite;
+    border: 1.5px solid black;
+    border-radius: .5rem;
+}
+label{
+    margin: 3px;
+}
+button{
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: green;
+}
+button:hover{
+    background-color: navy;
+}
+.map{
+    text-align: center;
+}
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+}
