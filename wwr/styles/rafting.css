@@ -76,7 +76,7 @@ article{
     font-family: var(--paragraph-font);
     background-color: var(--accent2-color);
 }
-.History{
+.history{
     display: grid;
     grid-template-columns: 250px 600px;
     background-color: var(--nav-background-color);
@@ -163,7 +163,7 @@ input[type="checkbox"]{
     width: 22px;
     height: 22px;
 }
-.homegrid{
+.home-grid{
     display:grid;
     background-image: url(http://127.0.0.1:5500/wwr/images/homeheroimage.jpg);
     gap: 50px;
@@ -185,20 +185,19 @@ input[type="checkbox"]{
     border: 2px solid black;
     border-radius: 5px;
 }
-.hometotrips{
-    background-color: #5b8266;
+.home-to-trips{
     font-size: larger;
     text-decoration-line: none;
 }
-.hometotrips:hover{
+.home-to-trips:hover{
     background-color: var(--nav-link-color);
-    color: #5b8266;
+    color: white;
 }
-.wireframe{
+.wireframe{ 
     margin-top: 3em;
     text-align: center;
 }
-.homebottom{
+.home-bottom{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -250,6 +249,6 @@ input[type="checkbox"]{
   .right-table{
     border-right: none;
   }
-  .tabletext{
+  .table-text{
     text-align: center;
   }
