@@ -16,7 +16,7 @@
 header {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
+	grid-template-columns: 620px 1fr;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -66,7 +66,6 @@ nav {
  width: auto;   
 }
 .satisfied{
-    /* justify-content: center; */
     height: 200px;
     width: auto;
 }
@@ -78,9 +77,13 @@ article{
 }
 .history{
     display: grid;
-    grid-template-columns: 250px 600px;
+    grid-template-columns: auto auto;
     background-color: var(--nav-background-color);
     text-align: left;
+}
+.history-heading{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 article img{
     padding: 50px;
@@ -91,6 +94,15 @@ article img{
 }
 h2{
     text-align: center;
+}
+.adventure-awaits{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 225px;
+    align-content: space-around;
+}
+.adventure-awaits-heading{
+    grid-column-start: 1;
+    grid-column-end: 6;
 }
 footer div{
     height: 125px;
